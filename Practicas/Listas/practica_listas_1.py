@@ -99,6 +99,9 @@ while comando != "x":
         elif comando == "5":
             print(f"Ha elegido la opción [{comando}] - 'Mostrar cantidad de elementos'")
             mostrar_cant_elementos()
+        elif comando == "6":
+            print(f"Ha elegido la opción [{comando}] - 'Mostrar Lista de Acciones'")
+            print("[1] - Agregar nombre.\n[2] - Reemplazar segundo nombre.\n[3] - Eliminar ultimo nombre.\n[4] - Mostrar Lista.\n[5] - Mostrar cantidad de elementos.\n[x] - Salir del Menu.")
         else:
             print("No ingreso el numero de comando de la lista, intente nuevamente.")
 
