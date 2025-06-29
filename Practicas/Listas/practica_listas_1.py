@@ -107,5 +107,4 @@ while comando != "x":
         print("No ha ingresado un valor, intente nuevamente.")
     
     # Seleccionar comando.
-    print("[1] - Agregar nombre.\n[2] - Reemplazar segundo nombre.\n[3] - Eliminar ultimo nombre.\n[4] - Mostrar Lista.\n[5] - Mostrar cantidad de elementos.\n[x] - Salir del Menu.")
     comando = input("Ingrese un valor de la lista de 'Acciones': ").lower()
