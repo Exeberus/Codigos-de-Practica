@@ -53,7 +53,6 @@ def listas_ordenadas():
     for n in lista_combinada:
         # Condición 'if' para saber si 'n' no se repite en 'lista_unida'
         if n not in lista_ordenada:
-            print(n)
             lista_ordenada.append(n)
 
     # Ordenar lista
@@ -99,7 +98,7 @@ while comando != "x":
         elif comando == "4":
             print(f"Ha elegido la opción [{comando}] - 'Buscar nombre en lista.'")
             buscar_nombre()
-        elif comando == "5":
+        elif comando == "c":
             print(f"Ha elegido la opción [{comando}] - 'Mostrar Lista de Acciones.'")
             print("[1] - Mostrar nombre en intersección.\n[2] - Combinar ambas listas sin duplicados.\n[3] - Ordenar lista alfabeticamente.\n[4] - Buscar nombre en lista.\n[c] - Ver lista de comandos.\n[x] - Salir del menú.\n")
         else:
